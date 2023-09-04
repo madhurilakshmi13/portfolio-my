@@ -1,0 +1,121 @@
+body{
+    text-align: center;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #e4f9f5 !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show,.nav-link  {
+    color: #66bfbf;
+}
+ 
+#top-container{
+    background-color: #e4f9f5 !important;
+    font-family: 'Times New Roman', Times, serif New Roman;
+    color : #66bfbf;
+       
+}
+
+.text-body-secondary {
+    --bs-text-opacity: 1;
+    
+    color: #e4f9f5 !important;
+
+}
+
+.footer{
+    background-color: #66bfbf  !important;
+    height:75px;
+}
+
+img{
+    margin-top: 80px;
+}
+.display-5{
+    margin-top: 50px;
+}
+#above{
+    margin-top: 100px;
+}
+#about h5{
+    margin-top: 50px;
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: center;
+}
+}
+#text-body{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align:center;
+}
+.text-body-emphasis{
+    color: #66bfbf !important;
+    text-align:center;
+}
+.contact{
+    padding-right: 32px;
+    padding-left: 0px;
+}
+#resume .text-body-emphasis{
+    margin-top: 50px;   
+}
+.justify-content-between {
+    justify-content: center!important;
+}
+.justify-content-end {
+    justify-content: center!important;
+}
+#contact .text-body-emphasis{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    /* height: 470px; */
+}
+#certificates,table{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+th, td {
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+ul li{
+  list-style-type: none;
+  /* text-align: center; */
+}
+.btn-light {
+    --bs-btn-color: #e4f9f5 ;
+    --bs-btn-bg: white;
+    --bs-btn-border-color: #66bfbf ;
+    --bs-btn-hover-bg: #029999;
+    --bs-btn-hover-border-color: gray;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: gray;
+    --bs-btn-active-border-color: gray;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+ a:link { 
+    text-decoration: none;
+    color:#66bfbf 
+}
+
+ a:visited { text-decoration: none; }
+
+
+ a:hover { text-decoration: none; }
+
+
+ a:active { text-decoration: none; }
+
+
+ 
